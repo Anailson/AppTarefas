@@ -1,0 +1,48 @@
+<resources>
+
+    <!--Titulos principais-->
+    <string name="app_name">App Tarefas</string>
+    <string name="developer">Anailson Santos Mota</string>
+    <string name="email_developer">mota.a.santos@gmail.com</string>
+    <string name="title_activity_main">@string/app_name</string>
+
+    <!-- Constantes de usadas como parametros-->
+    <string name="url_database">https://apptarefas.firebaseio.com/</string>
+    <string name="err_login_validate">Login realizado com sucesso.</string>
+    <string name="err_password_null">O campo Senha deve ser preenchido.</string>
+    <string name="err_confirm_password_null">O campo Confirmar senha deve ser preenchido.</string>
+    <string name="err_password_not_validate">As senhas digitadas devem ser iguais.</string>
+    <string name="dafault">- - -</string>
+    <string name="logged">logged</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="tasks">tarefas</string>
+
+    <!--Titulo dos menus-->
+    <string name="menu_task">Tarefas</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_new_task">Nova tarefa</string>
+    <string name="menu_go_meeting">Ir para reunião</string>
+    <string name="menu_do_app">Fazer App</string>
+    <string name="menu_test_app">Testar App</string>
+
+    <!--Texto dos botões-->
+    <string name="btn_save">Salvar</string>
+    <string name="btn_confirm_new_task">Ok</string>
+
+    <!--Dicas das caixa de texto-->
+    <string name="hint_email">Digite seu email</string>
+    <string name="hint_password">Digite sua senha</string>
+    <string name="hint_password_confirm">Confirme a senha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="list_tasks">
+        <item>@string/menu_go_meeting</item>
+        <item>@string/menu_do_app</item>
+        <item>@string/menu_test_app</item>
+    </string-array>
+
+</resources>
